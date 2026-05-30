@@ -1,6 +1,6 @@
 {
-  "name": "Maison Salon Wuppertal",
-  "description": "Upscale hair salon landing page in Wuppertal featuring booking, pricing, and gallery.",
+  "name": "Friseur Yussif Wuppertal",
+  "description": "Men's barbershop landing page in Wuppertal featuring booking, pricing, gallery, and language support.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

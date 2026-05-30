@@ -12,18 +12,21 @@ import { Testimonials } from './components/Testimonials';
 import { InstagramFeed } from './components/InstagramFeed';
 import { ContactAndMap } from './components/ContactAndMap';
 import { Footer } from './components/Footer';
+import { LanguageProvider } from './i18n/LanguageContext';
 
 export default function App() {
   return (
-    <div className="bg-white min-h-screen text-neutral-900 font-sans antialiased selection:bg-neutral-900 selection:text-white">
-      <Navbar />
-      <Hero />
-      <Pricing />
-      <Gallery />
-      <Testimonials />
-      <InstagramFeed />
-      <ContactAndMap />
-      <Footer />
-    </div>
+    <LanguageProvider>
+      <div className="bg-zinc-950 min-h-screen text-zinc-50 font-sans antialiased selection:bg-amber-600 selection:text-white">
+        <Navbar />
+        <Hero />
+        <Pricing />
+        <Gallery />
+        <Testimonials />
+        <InstagramFeed />
+        <ContactAndMap />
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 }
