@@ -1,0 +1,6 @@
+{
+  "name": "Maison Salon Wuppertal",
+  "description": "Upscale hair salon landing page in Wuppertal featuring booking, pricing, and gallery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
